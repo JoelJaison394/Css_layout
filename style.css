@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: #ffde06;
+}
+
+.main_heading{
+    padding-top: 5rem;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.emoji_layout_container{
+    margin-top: 2rem;
+    height: 200px;
+    width: 200px;
+    background: #484848;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.emoji_eyes{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 2px;
+    background: #000;
+    left: 60px;
+}
+
+.eye1{
+    top: 60px;
+}
+
+.eye2{
+    top: 120px;
+}
+
+.emoji_smile {
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    top: 15px;
+    left: -10px;
+    border: 6px solid transparent;
+    border-right: 10px solid black;
+    border-radius: 50%;
+
+  }
+.left_container{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50vw;
+    height: 20vh;
+    background: #913f00;
+    clip-path: polygon(81% 0, 100% 38%, 100% 99%, 0 99%, 0 0);
+}
+.right_container{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50vw;
+    height: 20vh;
+    clip-path: polygon(20% 0, 100% 0, 100% 99%, 0 99%, 0 38%);
+    background: #913f00;
+}
